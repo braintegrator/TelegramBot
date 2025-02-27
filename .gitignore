@@ -1,0 +1,9 @@
+.env
+quotes.txt
+/.idea
+/.venv
+/.vscode
+/videos
+/images
+/.git
+
