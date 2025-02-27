@@ -22,7 +22,7 @@ Telegram bot for instant delivery of positive content. Designed to boost mood an
 1. Clone repository:
 ```bash
 git clone https://github.com/braintegrator/TelegramBot.git
-cd PositiveInputsBot
+cd TelegramBot
 ```
 
 2. Install dependencies:
