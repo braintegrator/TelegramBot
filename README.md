@@ -1,6 +1,6 @@
 
 ```markdown
-# PositiveInputsBot
+# TelegramBot
 
 Telegram bot for instant delivery of positive content. Designed to boost mood and inspire.
 
