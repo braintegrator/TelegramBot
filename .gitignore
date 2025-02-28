@@ -1,9 +1,74 @@
-.env
-quotes.txt
-/.idea
-/.venv
-/.vscode
-/videos
-/images
+# Исключения для среды разработки
+/.idea/
+/.vscode/
+/.venv/
 /.git
 
+# Исключения для файлов конфигурации
+.env
+quotes.txt
+
+# Исключения для директорий с медиафайлами
+/videos
+/images
+
+# Исключения для виртуальных окружений
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+# Исключения для Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Исключения для Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.pot
+*.mo
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.pot
+*.mo
+
+# Исключения для тестов
+.coverage
+.tox/
+.nox/
+.cache
+pytest_cache/
+htmlcov/
